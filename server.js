@@ -8,6 +8,10 @@ app.get('/',(req,res)=>{
 
 })
 
+app.get('/prueba',(req,res)=>{
+    console.log('prueba heroku')
+})
+
 
 app.listen(8081,()=>{
     console.log('servidior iniciado puerto 8081')
